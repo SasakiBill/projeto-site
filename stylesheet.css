@@ -20,12 +20,18 @@ body{
     top: 9px;
 }
 
+.topnavbuttons-container{
+    float: right;
+    top: -30px;
+}
+
 .topnavbuttons-container a{
     text-decoration-line: none;
     color: rgb(199, 194, 194);
     cursor: pointer;
     padding: 10px 10px 10px 10px;
-    float: right;
+    float: left;
+    
 
 }
 
@@ -34,9 +40,14 @@ body{
     transition: 0.5s;
 }
 
+.login-container{
+   right: -20%;
+   position: relative;
+}
+
 .login-container button[type="SUBMIT"]{
     float: right;
-    margin-top: 9px;
+    margin-top: 22px;
     background-color: #5f4dee;
     border-radius: 10px;
     border-color: white;
@@ -45,4 +56,49 @@ body{
 .login-container button[type="SUBMIT"]{
     color: white;
     font-size: 15px;
+}
+
+.dropbtn {
+    background-color: #5f4dee;
+    color: rgb(199, 194, 194);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: -5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #5f4dee;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: rgb(199, 194, 194);
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #5f4dee;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #5f4dee;
+  color: white;
 }
