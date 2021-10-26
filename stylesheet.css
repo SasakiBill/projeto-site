@@ -114,15 +114,14 @@ body{
   color: white;
 }
 
-.leftmain-container h1{
-    position: relative;
-    top: 100px;
+.leftmain-container{
+    position: static;
+    margin-bottom: 350px;
     font-size: 56px;
     color: white;
 }
 
 .leftmain-container h4{
-    position: relative;
     top: 140px;
     font-size: 18px;
     color: white;
