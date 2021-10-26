@@ -5,13 +5,13 @@ body{
 
 .topnav-container{
     position: fixed;
-    
     background-color: #5f4dee;
     margin-top: -22px;
     height: 50px;
     width: 100%;
-   
     margin-left: -12px;
+    font-family:  'Quicksand', sans-serif;
+    
 }
 
 .topnav-container img{
@@ -21,18 +21,18 @@ body{
 }
 
 .topnavbuttons-container{
-    float: right;
-    top: -30px;
+    right: -860px;
+    top: -15px;
+    position: relative;
 }
 
 .topnavbuttons-container a{
     text-decoration-line: none;
-    color: rgb(199, 194, 194);
+    color: #dadfe2;
     cursor: pointer;
     padding: 10px 10px 10px 10px;
-    float: left;
-    
-
+    right: -30%;
+    font-size: 14px;
 }
 
 .topnavbuttons-container a:hover{
@@ -41,8 +41,8 @@ body{
 }
 
 .login-container{
-   right: -20%;
-   position: relative;
+    top: -86px;
+    position: relative;
 }
 
 .login-container button[type="SUBMIT"]{
@@ -51,21 +51,26 @@ body{
     background-color: #5f4dee;
     border-radius: 10px;
     border-color: white;
+    color: white;
+    
 }
 
-.login-container button[type="SUBMIT"]{
-    color: white;
-    font-size: 15px;
+.topnav-container .login-container button:hover{
+    background-color: #ffffff;
+    color: #5f4dee;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .dropbtn {
     background-color: #5f4dee;
-    color: rgb(199, 194, 194);
+    color: #dadfe2;
     padding: 16px;
     font-size: 16px;
     border: none;
     cursor: pointer;
     margin-top: -5px;
+    font-size: 14px;
 }
 
 .dropdown {
@@ -87,6 +92,7 @@ body{
     padding: 12px 12px;
     text-decoration: none;
     display: block;
+    
 }
 
 .dropdown-content a:hover {
