@@ -219,9 +219,6 @@ body{
     width: 80%;
 }
 
-.threeimages-container img{
-    width: 56%;
-}
 
 .titleonly-container{
     margin-left: -10%;
@@ -262,18 +259,33 @@ body{
 }
 
 .imageslist-container img{
-    width: 40%;
-    text-align: center;
+    width: 200px;
+    margin-left: 50px;
+}
+
+.imagem3-bugada{
+    margin-top: -40px;
+  
+}
+
+.imagem3-bugada img{
+    width: 206px;
+}
+
+.imagem3-bugada h1{ 
+    text-align: left;
 }
 
 .imageslist-container h1{
     font-size: 20px;
     color: #2f363b;
+    text-align: center;
 }
 
 .imageslist-container p{
     font-size: 16px;
     text-align: center;
+    color: #6b747b;
 }
 
 
