@@ -221,6 +221,7 @@ body{
 .titleonly-container{
     margin-left: -10%;
     text-align: center;
+    margin-top: 60px;
 }
 
 .titleonly-container t{
@@ -228,8 +229,25 @@ body{
     font-weight: 600;
     font-size: 14px;
     text-align: center;
+    
 }
 
 .centertitle-container{
     margin-top: 100px;
+}
+
+.marketingtext-container{
+    margin-left: -10%;
+    text-align: center;
+    margin-top: -35px;
+}
+
+.marketingtext-container p{
+    color: #2f363b;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.threeimages-container img{
+    width: 16%;
 }
