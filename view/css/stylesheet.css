@@ -1,16 +1,16 @@
 body{
     background-color: #5f4dee;
     overflow-x: hidden;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Opensans', sans-serif;
 }
 
 .topnav-container{
     position: fixed;
     background-color: #5f4dee;
-    margin-top: -290px;
+    margin-top: -300px;
     height: 70px;
-    width: 100%;
-    margin-left: -12px;
+    width: 1385px;
+    margin-left: -40px;
 
     
 }
@@ -18,8 +18,8 @@ body{
 .topnav-container img{
     position: absolute;
     background-color: #5f4dee;
-    margin-left: 39px;
-    top: 22px;
+    margin-left: 66px;
+    top: 9px;
 }
 
 .topnavbuttons-container{
@@ -120,40 +120,39 @@ body{
 }
 
 .lefttexto-container{
-    margin-left: 90px;
+    margin-left: 75px;
 }
 
 .lefttitle-container{
-    margin-left: 80px;
+    margin-left: 50px;
 }
 
 .leftmain-container .lefttitle-container{
     margin-top: 300px;
-   
 }
 
 
 .leftmain-container .lefttitle-container p{
     color: white;
     font-size: 56px;
+    text-align: justify;
+    font-weight: 650;
 }
 
 
-.leftmain-container .rightheader-image img{
+.rightheader-image img{
     float: right;
-    position: inherit;
-    transform: rotate(2deg);
+    
     width: 700px;
-    margin-top: -336px;
-    margin-right: -94px;
-    box-shadow: black;
+    margin-top: -365px;
+    margin-right: -57px;
 
 }
 
 .lefdesc-container{ 
     margin-top: -40px;
     position: inherit;
-    margin-left: 80px;
+    margin-left: 50px;
 
 }
 
@@ -161,24 +160,59 @@ body{
     color: white;
     font-size: 18px;
     margin: 0px 0px 34px;
+    word-spacing: 1.8px;
+    letter-spacing: 0.3px;
+    font-weight: 500;
     
 }
 
 .leftbuttons-container button[type="SUBMIT"]{
-    
-    background-color: white;
     border-radius: 40px;
     margin: 4px;
     border-color: white;
-    color: #5f4dee;
     font-size: 15px;
     width: 9%;
     height: 50px;
 }
 
-.leftbuttons-container  button:hover{
-    background-color: #5f4dee;
-    color: #ffffff;
-    transition: 0.5s;
+.leftbuttons-container .discover-button{
+    background-color: white;
+    color: #5f4dee;
     cursor: pointer;
+}
+
+.leftbuttons-container .discover-button:hover{
+    background-color: #5f4dee;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.leftbuttons-container .signup-button{
+    background-color: #5f4dee;
+    color: white;
+    cursor: pointer;
+}
+
+.leftbuttons-container .signup-button:hover{
+    background-color: #ffffff;
+    color: #5f4dee;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.secondpage-container{
+    background-color: white;
+    width: auto;
+    margin-top: 250px;
+    height: auto;
+}
+
+.promocoes-container{
+    margin-left: 140px;
+}
+
+.promocoes-container img{
+    margin-top: 110px;
+    width: 80%;
 }
