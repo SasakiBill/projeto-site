@@ -205,6 +205,7 @@ body{
     background-color: white;
     width: 1600px;
     margin-top: 250px;
+    margin-left: -1%;
     height: auto;
 }
 
@@ -216,6 +217,10 @@ body{
 .promocoes-container img{
     margin-top: 110px;
     width: 80%;
+}
+
+.threeimages-container img{
+    width: 56%;
 }
 
 .titleonly-container{
@@ -244,10 +249,25 @@ body{
 
 .marketingtext-container p{
     color: #2f363b;
-    font-size: 36px;
+    font-size: 26px;
     font-weight: 700;
 }
 
-.threeimages-container img{
-    width: 16%;
+.imageslist-container li{
+    display:inline-block;
+    list-style-type: none;
+    margin-left: 200px;
+
+
 }
+
+.imageslist-container img{
+    width: 40%;
+}
+
+.imageslist-container h1{
+    font-size: 20px;
+    color: #2f363b;
+}
+
+
