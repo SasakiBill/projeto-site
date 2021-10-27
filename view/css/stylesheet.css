@@ -1,16 +1,17 @@
 body{
     background-color: #5f4dee;
-    
+    overflow-x: hidden;
+    font-family: "Open Sans", sans-serif;
 }
 
 .topnav-container{
     position: fixed;
     background-color: #5f4dee;
-    margin-top: -22px;
-    height: 55px;
+    margin-top: -290px;
+    height: 70px;
     width: 100%;
     margin-left: -12px;
-    font-family:  'Quicksand', sans-serif;
+
     
 }
 
@@ -18,7 +19,7 @@ body{
     position: absolute;
     background-color: #5f4dee;
     margin-left: 39px;
-    top: 10px;
+    top: 22px;
 }
 
 .topnavbuttons-container{
@@ -115,32 +116,69 @@ body{
 }
 
 .leftmain-container{
-    position: static;
-    margin-bottom: 350px;
+    position: initial;    
+}
+
+.lefttexto-container{
+    margin-left: 90px;
+}
+
+.lefttitle-container{
+    margin-left: 80px;
+}
+
+.leftmain-container .lefttitle-container{
+    margin-top: 300px;
+   
+}
+
+
+.leftmain-container .lefttitle-container p{
+    color: white;
     font-size: 56px;
-    color: white;
 }
 
-.leftmain-container h4{
-    top: 140px;
+
+.leftmain-container .rightheader-image img{
+    float: right;
+    position: inherit;
+    transform: rotate(2deg);
+    width: 700px;
+    margin-top: -336px;
+    margin-right: -94px;
+    box-shadow: black;
+
+}
+
+.lefdesc-container{ 
+    margin-top: -40px;
+    position: inherit;
+    margin-left: 80px;
+
+}
+
+.leftmain-container .lefdesc-container p{
+    color: white;
     font-size: 18px;
-    color: white;
+    margin: 0px 0px 34px;
+    
 }
 
-.rightheader-image img{
-    float: right;
-    transform: rotate(13);
-    width: 600px;
-}
-
-.leftmain-container .leftbuttons-container[type="SUBMIT"]{
-    float: right;
-    margin-top: 22px;
-    background-color: #5f4dee;
-    border-radius: 15px;
+.leftbuttons-container button[type="SUBMIT"]{
+    
+    background-color: white;
+    border-radius: 40px;
+    margin: 4px;
     border-color: white;
-    color: white;
+    color: #5f4dee;
     font-size: 15px;
-    width: 7%;
-    height: 30px;
+    width: 9%;
+    height: 50px;
+}
+
+.leftbuttons-container  button:hover{
+    background-color: #5f4dee;
+    color: #ffffff;
+    transition: 0.5s;
+    cursor: pointer;
 }
