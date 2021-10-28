@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1001px) and (max-width: 1200px){
+@media only screen and (min-width: 1001px) and (max-width: 1199px){
     body{
         background-color: #5f4dee;
         overflow-x: hidden;
@@ -8,7 +8,7 @@
     .topnav-container{
         position: fixed;
         background-color: #5f4dee;
-        margin-top: -300px;
+        margin-top: -100px;
         height: 70px;
         width: 1385px;
         margin-left: -40px;
@@ -126,7 +126,8 @@
     }
 
     .lefttexto-container{
-        margin-left: 75px;
+        margin-left: 25px;
+        margin-top: -50px;
     }
 
     .lefttitle-container{
@@ -149,9 +150,9 @@
     .rightheader-image img{
         float: right;
         transform: rotate(2deg);
-        width: 700px;
+        width: 40%;
         margin-top: -365px;
-        margin-right: -57px;
+        margin-right: -10px;
 
     }
 
