@@ -1,4 +1,4 @@
-@media only screen and (min-width: 0px) and (max-width: 799px) {
+@media only screen and (min-width: 1001px) and (max-width: 1200px){
     body{
         background-color: #5f4dee;
         overflow-x: hidden;
@@ -8,7 +8,7 @@
     .topnav-container{
         position: fixed;
         background-color: #5f4dee;
-        margin-top: -120px;
+        margin-top: -300px;
         height: 70px;
         width: 1385px;
         margin-left: -40px;
@@ -23,7 +23,7 @@
     }
 
     .topnavbuttons-container{
-        
+        right: -860px;
         top: -10px;
         position: relative;
     }
@@ -127,64 +127,58 @@
 
     .lefttexto-container{
         margin-left: 75px;
-        margin-top: -180px;
     }
 
     .lefttitle-container{
         margin-left: 50px;
-        
     }
 
     .leftmain-container .lefttitle-container{
         margin-top: 300px;
-        margin-left: -65px;
     }
 
 
     .leftmain-container .lefttitle-container p{
         color: white;
-        font-size: 36px;
-        text-align: left;
+        font-size: 56px;
+        text-align: justify;
         font-weight: 650;
-        text-align: center;
     }
 
-    .rightheader-image{
-        margin-top: 35px;
-    }
 
     .rightheader-image img{
-        width: auto;
-        margin-bottom: 40px;
-        margin-left: -75px;
-        
-        
+        float: right;
+        transform: rotate(2deg);
+        width: 700px;
+        margin-top: -365px;
+        margin-right: -57px;
 
     }
 
     .lefdesc-container{ 
-        margin-top: -20px;
-        margin-left: -75px;
-        
+        margin-top: -40px;
+        position: inherit;
+        margin-left: 50px;
 
     }
 
     .leftmain-container .lefdesc-container p{
         color: white;
         font-size: 18px;
-        font-weight: 200;
-        text-align: center;
+        margin: 0px 0px 34px;
+        word-spacing: 1.8px;
+        letter-spacing: 0.3px;
+        font-weight: 500;
+        
     }
 
     .leftbuttons-container button[type="SUBMIT"]{
         border-radius: 40px;
-
+        margin: 4px;
         border-color: white;
-        
         font-size: 15px;
-        width: 40%;
+        width: 9%;
         height: 50px;
-        margin-left: 25px;
     }
 
     .leftbuttons-container .discover-button{
@@ -201,7 +195,6 @@
     }
 
     .leftbuttons-container .signup-button{
-        
         background-color: #5f4dee;
         color: white;
         cursor: pointer;
@@ -217,29 +210,16 @@
     .secondpage-container{
         background-color: white;
         width: auto;
-        margin-left: -10%;
-        margin-right: -10%;
-        margin-top: 50px;
-        
-        height: 1200px;
+        margin-right: -75px;
+        margin-top: 250px;
+        flex-grow: 20;
+        height: 760px;
     }
 
     .promocoes-container{
         text-align: center;
         margin-left: 10%;
         width: 80%;
-        display: none;
-    }
-
-    .mobilepromocoes-container{
-        text-align: center;
-        margin-left: 10%;
-        margin-top: -20px;
-        width: 80%;
-    }
-
-    .mobilepromocoes-container img{
-        margin-top: 40px;
     }
 
     .promocoes-container img{
@@ -270,11 +250,7 @@
 
     .threeimages-container{
         text-align: center;
-        margin-left: -47%;
-    }
-
-    .threeimages-container p{
-        text-align: center;
+        margin-left: -10%;
     }
 
     .marketingtext-container{
@@ -302,10 +278,8 @@
         margin-left: 50px;
     }
 
-    
-
     .imagem3-bugada{
-        margin-top: -10px;
+        margin-top: -40px;
     
     }
 
@@ -370,7 +344,7 @@
     }
 
     footer{
-        margin-top: 25px;
+        margin-top: 150px;
         text-align: center;
     }
 
@@ -380,16 +354,16 @@
     }
 
     .threefooter-container{
-        margin-top: 0px;
-        margin-left: -120px;
-        text-align: left;
+        margin-top: -50px;
+        margin-left: -5%;
+        text-align: center;
     }
 
     .threefooter-container li{
         display:inline-block;
         list-style-type: none;
         margin-left: 120px;
-        text-align: left;
+
 
     }
 
@@ -406,7 +380,7 @@
 
     .threefooter-container p{
         font-size: 14px;
-        text-align: left;
+        text-align: center;
         color: #e2e1e8;
     }
 
@@ -434,7 +408,6 @@
     .copyright-container{
         text-align: center;
         margin-left: 8%;
-        
     }
 
     .copyright-container a{
@@ -443,7 +416,7 @@
     }
 
     .copyright-container p{
-        margin-left: -6%;
+        margin-left: -2%;
         text-align: center;
         color: #e2e1e8;
     }
