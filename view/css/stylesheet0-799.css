@@ -52,6 +52,32 @@
 
     .rightbuttons-container{
         right: auto;
+        display: none;
+    }
+
+    .topnavmobile-container img{
+        width: 3%;
+    }
+
+    .input[type="checkbox"]{
+        display: none;
+    }
+
+    .topnavmobile-container nav{
+        background-color: #5f4dee;
+        height: auto;
+        width: auto;
+    }
+
+    .topnavmobile-container a{
+        display: block;
+        padding: 20px 5px;
+        color: white;
+    }
+
+    .topnavmobile-container  label{
+        padding: 15px;
+        
     }
 
     .login-container button[type="SUBMIT"]{
