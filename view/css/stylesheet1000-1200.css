@@ -8,7 +8,7 @@
     .topnav-container{
         position: fixed;
         background-color: #5f4dee;
-        margin-top: -100px;
+        margin-top: -180px;
         height: 70px;
         width: 1385px;
         margin-left: -40px;
@@ -126,8 +126,8 @@
     }
 
     .lefttexto-container{
-        margin-left: 25px;
-        margin-top: -50px;
+        margin-left: -20px;
+        margin-top: -120px;
     }
 
     .lefttitle-container{
@@ -150,9 +150,9 @@
     .rightheader-image img{
         float: right;
         transform: rotate(2deg);
-        width: 40%;
-        margin-top: -365px;
-        margin-right: -10px;
+        width: 45%;
+        margin-top: -305px;
+        margin-right: 10px;
 
     }
 
@@ -165,7 +165,7 @@
 
     .leftmain-container .lefdesc-container p{
         color: white;
-        font-size: 18px;
+        font-size: 16px;
         margin: 0px 0px 34px;
         word-spacing: 1.8px;
         letter-spacing: 0.3px;
@@ -178,7 +178,7 @@
         margin: 4px;
         border-color: white;
         font-size: 15px;
-        width: 9%;
+        width: 15%;
         height: 50px;
     }
 
@@ -211,10 +211,11 @@
     .secondpage-container{
         background-color: white;
         width: auto;
-        margin-right: -75px;
-        margin-top: 250px;
-        flex-grow: 20;
-        height: 760px;
+        margin-left: -10%;
+        margin-right: -10%;
+        
+        margin-top: 150px;
+        height: 600px;
     }
 
     .promocoes-container{
@@ -225,14 +226,18 @@
 
     .promocoes-container img{
         margin-top: 110px;
-        width: auto;
-    }
+        width: 95%;
 
+    }
+    
+    .mobilepromocoes-container img{
+        display: none;
+    }
 
     .titleonly-container{
         margin-left: -10%;
         text-align: center;
-        margin-top: 75px;
+        margin-top: 65px;
     }
 
     .titleonly-container t{
@@ -240,11 +245,11 @@
         font-weight: 600;
         font-size: 14px;
         text-align: center;
-        
+        margin-top: 35px;
     }
 
     .centertitle-container{
-        margin-top: 100px;
+        margin-top: 90px;
         text-align: center;
         margin-left: 7%;
     }
@@ -252,6 +257,7 @@
     .threeimages-container{
         text-align: center;
         margin-left: -10%;
+        margin-top: 40px;
     }
 
     .marketingtext-container{
@@ -266,17 +272,21 @@
         font-weight: 700;
     }
 
+    .imageslist-container{
+        margin-left: 30px;
+    }
+
     .imageslist-container li{
         display:inline-block;
         list-style-type: none;
-        margin-left: 120px;
+        margin-left: 20px;
 
 
     }
 
     .imageslist-container img{
-        width: 200px;
-        margin-left: 50px;
+        width: 150px;
+        margin-left: 20px;
     }
 
     .imagem3-bugada{
@@ -293,13 +303,13 @@
     }
 
     .imageslist-container h1{
-        font-size: 20px;
+        font-size: 18px;
         color: #2f363b;
         text-align: center;
     }
 
     .imageslist-container p{
-        font-size: 16px;
+        font-size: 14px;
         text-align: center;
         color: #6b747b;
     }
@@ -346,7 +356,7 @@
 
     footer{
         margin-top: 150px;
-        text-align: center;
+        text-align: left;
     }
 
     footer t{
@@ -355,15 +365,15 @@
     }
 
     .threefooter-container{
-        margin-top: -50px;
+        margin-top: -60px;
         margin-left: -5%;
         text-align: center;
     }
 
     .threefooter-container li{
-        display:inline-block;
+        display: inline-block;
         list-style-type: none;
-        margin-left: 120px;
+        margin-left: 20px;
 
 
     }
@@ -374,13 +384,13 @@
     }
 
     .threefooter-container h1{
-        font-size: 20px;
+        font-size: 12px;
         color: #2f363b;
         text-align: center;
     }
 
     .threefooter-container p{
-        font-size: 14px;
+        font-size: 12px;
         text-align: center;
         color: #e2e1e8;
     }
@@ -390,7 +400,7 @@
     }
 
     .divone-container t{
-        text-align: right;
+        text-align: left;
     }
 
     .divtwo-container p{

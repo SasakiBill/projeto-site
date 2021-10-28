@@ -126,7 +126,7 @@
     }
 
     .lefttexto-container{
-        margin-left: 75px;
+        margin-left: -5px;
     }
 
     .lefttitle-container{
@@ -150,8 +150,8 @@
         float: right;
         transform: rotate(2deg);
         width: 700px;
-        margin-top: -365px;
-        margin-right: -57px;
+        margin-top: -380px;
+        margin-right: -120px;
 
     }
 
