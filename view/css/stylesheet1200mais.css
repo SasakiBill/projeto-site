@@ -207,10 +207,15 @@
         transition: 0.5s;
     }
 
+    .mobilepromocoes-container img{
+        display: none;
+    }
+
     .secondpage-container{
         background-color: white;
         width: auto;
-        margin-right: -75px;
+        margin-left: -10%;
+        margin-right: -10%;
         margin-top: 250px;
         flex-grow: 20;
         height: 760px;
@@ -268,7 +273,7 @@
     .imageslist-container li{
         display:inline-block;
         list-style-type: none;
-        margin-left: 120px;
+        margin-left: 30px;
 
 
     }
@@ -362,7 +367,7 @@
     .threefooter-container li{
         display:inline-block;
         list-style-type: none;
-        margin-left: 120px;
+        margin-left: 30px;
 
 
     }
@@ -389,7 +394,7 @@
     }
 
     .divone-container t{
-        text-align: right;
+        text-align: left;
     }
 
     .divtwo-container p{
@@ -416,7 +421,7 @@
     }
 
     .copyright-container p{
-        margin-left: -2%;
+        margin-left: -4%;
         text-align: center;
         color: #e2e1e8;
     }
