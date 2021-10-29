@@ -6,20 +6,7 @@
     }
 
     .topnav-container{
-        position: fixed;
-        background-color: #5f4dee;
-        margin-top: -120px;
-        height: 70px;
-        width: 1385px;
-        margin-left: -40px;
-        z-index: 1;
-    }
-
-    .topnav-container img{
-        position: absolute;
-        background-color: #5f4dee;
-        margin-left: 66px;
-        top: 9px;
+        display: none;
     }
 
     .topnavbuttons-container{
@@ -56,27 +43,61 @@
     }
 
     .topnavmobile-container img{
-        width: 3%;
+        width: 6%;
     }
 
     .input[type="checkbox"]{
         display: none;
     }
 
-    .topnavmobile-container nav{
+    .logomobile-container img{ 
+        position: absolute;
         background-color: #5f4dee;
-        height: auto;
-        width: auto;
+        margin-left: 43px;
+        top: 9px;
+        width: 14%;
+    }
+
+    nav{
+        position: absolute;
+        transition: all .5s;
+    }
+
+    .topnavmobile-container{
+        background-color: #5f4dee;
+        margin-left: 0px;
+        position: fixed;
+        
+        margin-top: -110px;
+        
+    }
+
+    .topnavmobile-container ul{
+        position: absolute;
+    }
+
+    input[type="checkbox"]:checked ~ nav{
+        transform: translateX(350px);
+        background-color: #5f4dee;
+        
+
+    }
+
+    .nav{
+        position: absolute;
+        list-style-type: none;
     }
 
     .topnavmobile-container a{
         display: block;
         padding: 20px 5px;
         color: white;
+        
     }
 
-    .topnavmobile-container  label{
-        padding: 15px;
+    label{
+        z-index: 1;
+        margin-left: 290px;
         
     }
 
@@ -148,7 +169,7 @@
 
     .leftmain-container{
         position: initial;    
-        
+       
     }
 
     .lefttexto-container{
