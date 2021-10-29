@@ -40,7 +40,7 @@
 
 
     .topnavmobile-container .threelines-container img{
-        
+        margin-left: 140px;
         width: 40px;
         margin-top: 10px;
         float: right;
@@ -61,8 +61,6 @@
     nav{
         position: absolute;
         transition: all .5s;
-        
-        margin-left: 100px;
         float: right;
     }
 
@@ -102,7 +100,7 @@
     }
 
     input[type="checkbox"]:checked ~ nav{
-        transform: translateX(350px);
+        transform: translateX(700px);
         cursor: pointer;
         
     }

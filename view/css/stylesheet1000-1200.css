@@ -15,7 +15,7 @@
         margin-top: -180px;
         height: 70px;
         width: 1385px;
-        margin-left: -40px;
+        margin-left: -60px;
         z-index: 1;
     }
 
@@ -27,7 +27,7 @@
     }
 
     .topnavbuttons-container{
-        right: -860px;
+        right: -500px;
         top: -10px;
         position: relative;
     }
@@ -49,9 +49,10 @@
     }
 
     .login-container{
-        top: -86px;
+        
+        top: 0px;
         position: relative;
-        margin-right: 40px;
+        margin-right: 30px;
     }
 
     .rightbuttons-container{
@@ -59,8 +60,9 @@
     }
 
     .login-container button[type="SUBMIT"]{
-        float: right;
-        margin-top: 22px;
+        margin-left: 940px;
+        position: absolute;
+        margin-top: -65px;
         background-color: #5f4dee;
         border-radius: 15px;
         border-color: white;
