@@ -357,6 +357,7 @@
     }
 
     .marketingtext-container{
+        position: initial;
         margin-left: -8%;
         text-align: center;
         margin-top: -15px;
