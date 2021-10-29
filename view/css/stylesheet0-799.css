@@ -64,12 +64,17 @@
         position: absolute;
         transition: all .5s;
         background-color: #5f4dee;
-        width: auto;
+        margin-left: 43px;
+    }
+
+    nav ul{
+        margin-left: 46px;
+        width: 1500px;
     }
 
     .topnavmobile-container{
         background-color: #5f4dee;
-        margin-left: 0px;
+        margin-left: -10px;
         position: fixed;
         width: auto;
         height: 60px;
