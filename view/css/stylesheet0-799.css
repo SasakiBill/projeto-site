@@ -42,8 +42,10 @@
         display: none;
     }
 
-    .topnavmobile-container img{
-        width: 6%;
+    .topnavmobile-container .threelines-container img{
+        width: 7%;
+        margin-top: -9px;
+        margin-left: 50px;
     }
 
     .input[type="checkbox"]{
@@ -55,44 +57,52 @@
         background-color: #5f4dee;
         margin-left: 43px;
         top: 9px;
-        width: 14%;
+        width: 20%;
     }
 
     nav{
         position: absolute;
         transition: all .5s;
+        background-color: #5f4dee;
+        width: auto;
     }
 
     .topnavmobile-container{
         background-color: #5f4dee;
         margin-left: 0px;
         position: fixed;
-        
-        margin-top: -110px;
+        width: auto;
+        height: 60px;
+        margin-top: -120px;
+    }
+
+    .topnavmobile-container nav{
+        width: auto;
+        height: auto;
         
     }
 
     .topnavmobile-container ul{
-        position: absolute;
+        position: relative;
+        list-style-type: none;
+        margin-left: 40px;
     }
 
     input[type="checkbox"]:checked ~ nav{
         transform: translateX(350px);
-        background-color: #5f4dee;
+    }
+
+    .hideninfo-container{
+        margin-left: 0px;
         
-
     }
 
-    .nav{
-        position: absolute;
-        list-style-type: none;
-    }
 
     .topnavmobile-container a{
         display: block;
         padding: 20px 5px;
         color: white;
-        
+        text-decoration: none;
     }
 
     label{
