@@ -297,7 +297,7 @@
     .imageslist-container li{
         display: grid;
         list-style-type: none;
-        margin-left: -400px;
+        margin-left: -350px;
     }
 
     .imageslist-container img{
