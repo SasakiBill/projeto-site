@@ -18,7 +18,7 @@
     .topnavbuttons-container a{
         text-decoration-line: none;
         color: #dadfe2;
-        
+        float: left;
         cursor: pointer;
         padding: 10px 10px 10px 10px;
         right: -30%;
@@ -37,10 +37,6 @@
         margin-right: 40px;
     }
 
-    .rightbuttons-container{
-        right: auto;
-        display: none;
-    }
 
     .topnavmobile-container .threelines-container img{
         width: 7%;
@@ -64,12 +60,13 @@
         position: absolute;
         transition: all .5s;
         background-color: #5f4dee;
-        margin-left: 43px;
+        margin-left: 0px;
     }
 
     nav ul{
-        margin-left: 46px;
-        width: 1500px;
+        
+        width: 1800px;
+        height: 1400px;
     }
 
     .topnavmobile-container{
@@ -90,11 +87,13 @@
     .topnavmobile-container ul{
         position: relative;
         list-style-type: none;
-        margin-left: 40px;
+        margin-left: 43px;
     }
 
     input[type="checkbox"]:checked ~ nav{
         transform: translateX(350px);
+        cursor: pointer;
+        
     }
 
     .hideninfo-container{
@@ -108,6 +107,7 @@
         padding: 20px 5px;
         color: white;
         text-decoration: none;
+        
     }
 
     label{
