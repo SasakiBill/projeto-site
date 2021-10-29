@@ -84,6 +84,10 @@
         
     }
 
+    input[type="checkbox"]{
+        display: none;
+    }
+
     .topnavmobile-container ul{
         position: relative;
         list-style-type: none;

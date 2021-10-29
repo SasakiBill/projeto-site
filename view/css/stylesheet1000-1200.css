@@ -5,6 +5,10 @@
         font-family: 'Opensans', sans-serif;
     }
 
+    .topnavmobile-container{
+        display: none;
+    }
+
     .topnav-container{
         position: fixed;
         background-color: #5f4dee;
