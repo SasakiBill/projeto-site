@@ -27,7 +27,7 @@
     }
 
     .topnavbuttons-container{
-        
+        right: -260px;
         top: -10px;
         position: relative;
     }
@@ -59,9 +59,10 @@
     }
 
     .login-container button[type="SUBMIT"]{
-        float: right;
-        margin-top: 22px;
+        margin-left: 1000px;
+        margin-top: -62px;
         background-color: #5f4dee;
+        position: absolute;
         border-radius: 15px;
         border-color: white;
         color: white;
