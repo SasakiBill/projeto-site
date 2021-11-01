@@ -275,7 +275,7 @@
 
     .threeimages-container{
         text-align: center;
-        margin-left: 50%;
+       
     }
 
     .threeimages-container p{
@@ -295,14 +295,14 @@
     }
 
     .imageslist-container li{
-        display: grid;
+        
         list-style-type: none;
-        margin-left: -650px;
+        
     }
 
     .imageslist-container img{
         width: 200px;
-        margin-left: 500px;
+        
     }
 
 
