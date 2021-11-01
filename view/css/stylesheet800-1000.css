@@ -254,7 +254,7 @@
 
 
     .titleonly-container{
-        margin-left: -10%;
+        margin-left: -9%;
         text-align: center;
         margin-top: 75px;
     }
@@ -283,26 +283,26 @@
     }
 
     .marketingtext-container{
-        margin-left: -10%;
+        margin-left: -9%;
         text-align: center;
         margin-top: -25px;
     }
 
     .marketingtext-container p{
         color: #2f363b;
-        font-size: 26px;
+        font-size: 20px;
         font-weight: 700;
     }
 
     .imageslist-container li{
         display: grid;
         list-style-type: none;
-        margin-left: -350px;
+        margin-left: -650px;
     }
 
     .imageslist-container img{
         width: 200px;
-        margin-left: 270px;
+        margin-left: 500px;
     }
 
 
