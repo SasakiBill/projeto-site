@@ -152,8 +152,27 @@
 
         <div id="openModal" class="modalDialog">
             <a href="#close" title="Close" class="close">X</a>
-            <h1>Teste</h1>
-            <p>Teste</p>
+            <div class="titulo">
+                <h1>Formulário Simples</h1>
+                <h2>Por favor, digite os seus dados de usuário para prosseguir.</h2>
+            </div>
+            <div class="formulario">
+                <form name="form" action="form.php" method="post">
+                    <label>Nome</label>
+                    <input type="text" placeholder="example" id="username" >
+                    <label>Email</label>
+                    <input type="email" placeholder="email@email" id="email">
+                    <label>CEP</label>
+                    <input type="CEP" id="cep">
+                    <label>Telefone</label>
+                    <input type="tel" placeholder= "(XX) XXXXX-XXXX" id="fone">
+                    <label>Assunto</label>
+                    <input type="text" id="subject">
+                    <label>Mensagem</label>
+                    <input type="text" id="message">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
         </div>
     </div>
 

@@ -229,16 +229,13 @@
         margin: 10% auto;
         padding: 5px 20px 13px 20px;
         border-radius: 10px;
-        background: #fff;
-        background: -moz-linear-gradient(#fff, #999);
-        background: -webkit-linear-gradient(#fff, #999);
-        background: -o-linear-gradient(#fff, #999);
+        background-color: #5f4dee;
     }
 
 
 
     .close {
-        background: #606061;
+        background: #5f4dee;
         color: #FFFFFF;
         line-height: 25px;
         position: absolute;
@@ -593,12 +590,23 @@
     .modalacesso-container{
         text-align: center;
         margin-top: 30px;
-
     }
+
+
 
     .modalacesso-container a{
         text-decoration: none;
         font-size: 20px;
+        background-color: white;
+        border-color: white;
+        border-radius: 30px;
+        color: #5f4dee;
+    }
+
+    .modalacesso-container a:hover{
+        background-color: #5f4dee;
+        color: white;
+        transition: 0.5s;
     }
 
 }
