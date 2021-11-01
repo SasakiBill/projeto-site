@@ -153,9 +153,9 @@
     .rightheader-image img{
         float: right;
         transform: rotate(2deg);
-        width: 650px;
+        width: 670px;
         margin-top: -360px;
-        margin-right: -60px;
+        margin-right: -20px;
 
     }
 

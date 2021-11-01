@@ -38,13 +38,17 @@
         margin-right: 40px;
     }
 
+    .threelines-container img{
+        margin-left: 67px;
+    }
+   
 
     .topnavmobile-container .threelines-container img{
         background-color: #5f4dee;
-        margin-left: 40px;
+        
         width: 40px;
         margin-top: 5px;
-        text-align: right;
+        
     }
 
     .input[type="checkbox"]{

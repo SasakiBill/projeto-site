@@ -4,38 +4,21 @@
         overflow-x: hidden;
         font-family: 'Opensans', sans-serif;
     }
-
-    .topnavmobile-container{
-        display: none;
-    }
     
     .topnav-container{
-        position: fixed;
-        background-color: #5f4dee;
-        margin-top: -120px;
-        height: 70px;
-        width: 1385px;
-        margin-left: -40px;
-        z-index: 1;
-    }
-
-    .topnav-container img{
-        position: absolute;
-        background-color: #5f4dee;
-        margin-left: 66px;
-        top: 9px;
+        display: none;
     }
 
     .topnavbuttons-container{
-        right: -260px;
         top: -10px;
         position: relative;
     }
 
     .topnavbuttons-container a{
+        background-color: #5f4dee;
         text-decoration-line: none;
         color: #dadfe2;
-        
+        float: left;
         cursor: pointer;
         padding: 10px 10px 10px 10px;
         right: -30%;
@@ -49,33 +32,96 @@
     }
 
     .login-container{
-        top: 0px;
+        top: -86px;
         position: relative;
-        margin-left: -300px;
+        margin-right: 40px;
     }
 
-    .rightbuttons-container{
-        right: auto;
+
+    .topnavmobile-container .threelines-container img{
+        background-color: #5f4dee;
+        margin-left: 700px;
+        width: 40px;
+        margin-top: 5px;
+        text-align: right;
     }
 
-    .login-container button[type="SUBMIT"]{
-        margin-left: 1000px;
-        margin-top: -62px;
+    .input[type="checkbox"]{
+        display: none;
+    }
+
+    .logomobile-container img{ 
+        position: fixed;
+        background-color: #5f4dee;
+        float: right;
+        top: 9px;
+        width: 80px;
+    }
+
+    nav{
         background-color: #5f4dee;
         position: absolute;
-        border-radius: 15px;
-        border-color: white;
-        color: white;
-        font-size: 15px;
-        width: 7%;
-        height: 30px;
+        transition: all .5s;
+        float: right;
+        margin-left: 200px;
+        
     }
 
-    .topnav-container .login-container button:hover{
-        background-color: #ffffff;
-        color: #5f4dee;
-        transition: 0.5s;
+    nav ul{
+        position: absolute;
+        background-color: #5f4dee;
+        width: 1200px;
+        
+        height: 1400px;
+    }
+
+    .topnavmobile-container{
+        background-color: #5f4dee;
+        
+        position: fixed;
+        width: 1200px;
+        height: 60px;
+        margin-top: -120px;
+    }
+
+    .topnavmobile-container nav{
+        
+        background-color: #5f4dee;
+        width: auto;
+        height: auto;
+        
+    }
+
+    input[type="checkbox"]{
+        display: none;
+    }
+
+    .topnavmobile-container ul{
+        
+        position: relative;
+        list-style-type: none;
+        
+    }
+
+    input[type="checkbox"]:checked ~ nav{
+        transform: translateX(700px);
         cursor: pointer;
+        
+    }
+
+    .hideninfo-container{
+        background-color: #5f4dee;
+        
+        
+    }
+
+
+    .topnavmobile-container a{
+        display: block;
+        padding: 20px 5px;
+        color: white;
+        text-decoration: none;
+        background-color: #5f4dee;
     }
 
     .dropbtn {
