@@ -325,7 +325,7 @@
 
 
     .titleonly-container{
-        margin-left: -9%;
+        
         text-align: center;
         margin-top: -90px;
     }
@@ -339,17 +339,15 @@
     }
 
     .centertitle-container{
-        margin-top: 90px;
-        position: relative;
+        
         text-align: center;
-        margin-left: 10%;
         margin-top: 6em;
         display: block;
     }
 
     .threeimages-container{
         text-align: center;
-        margin-left: -36%;
+        
     }
 
     .threeimages-container p{
@@ -357,38 +355,29 @@
     }
 
     .marketingtext-container{
-        position: initial;
-        margin-left: -8%;
         text-align: center;
         margin-top: -15px;
     }
 
     .marketingtext-container p{
         color: #2f363b;
-        font-size: 16px;
+        font-size: auto;
         text-align: center;
         font-weight: 700;
     }
     
     .imageslist-container li{
-        display: grid;
         list-style-type: none;
-        margin-left: 125px;
-        
-
     }
 
     .imageslist-container img{
         width: 200px;
-        margin-left: 150px;
-        
     }
 
     
 
     .imagem3-bugada{
         margin-top: -10px;
-    
     }
 
     .imagem3-bugada img{
