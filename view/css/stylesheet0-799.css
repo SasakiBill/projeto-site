@@ -636,6 +636,9 @@
         box-sizing: border-box;
     }
       
+    .textarea{
+        width: auto;
+    }
     
     .formulario input[type=email]{
         width: 100%;
