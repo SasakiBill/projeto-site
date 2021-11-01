@@ -142,10 +142,14 @@
         </div>
     </div>
 
-    <section>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.22893732343!2d-51.47241658599819!3d-25.397146183803528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ef363396d1871d%3A0xf28055fcdf05407b!2sEntre%20Rios%20Assessoria%20Cont%C3%A1bil!5e0!3m2!1spt-BR!2sbr!4v1635764876825!5m2!1spt-BR!2sbr" 
-        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </section>
+
+    <div class="mapa-container">
+        <section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.22893732343!2d-51.47241658599819!3d-25.397146183803528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ef363396d1871d%3A0xf28055fcdf05407b!2sEntre%20Rios%20Assessoria%20Cont%C3%A1bil!5e0!3m2!1spt-BR!2sbr!4v1635764876825!5m2!1spt-BR!2sbr" 
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </div>
+    
 
     <div class="modalacesso-container">
         <a href="#openModal">Abrir Modal Teste</a>
@@ -153,8 +157,8 @@
         <div id="openModal" class="modalDialog">
             <a href="#close" title="Close" class="close">X</a>
             <div class="titulo">
-                <h1>Formulário Simples</h1>
-                <h2>Por favor, digite os seus dados de usuário para prosseguir.</h2>
+                <p>Formulário Simples<p>
+                
             </div>
             <div class="formulario">
                 <form name="form" action="form.php" method="post">
@@ -163,7 +167,19 @@
                     <label>Email</label>
                     <input type="email" placeholder="email@email" id="email">
                     <label>CEP</label>
-                    <input type="CEP" id="cep">
+                    <input type="text" id="cep">
+                    <label>Estado</label>
+                    <input type="text" id="estado">
+                    <label>Cidade</label>
+                    <input type="text" id="cidade">
+                    <label>Rua</label>
+                    <input type="text" id="rua">
+                    <label>Bairro</label>
+                    <input type="text" id="bairro">
+                    <label>Complemento</label>
+                    <input type="text" id="complemento">
+                    <label>Número</label>
+                    <input type="text" id="numero">
                     <label>Telefone</label>
                     <input type="tel" placeholder= "(XX) XXXXX-XXXX" id="fone">
                     <label>Assunto</label>
