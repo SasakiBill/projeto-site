@@ -43,14 +43,14 @@
         <div class="logomobile-container">
             <img src="./view/img/logosite.png">
         </div>
-    
+
         <input type="checkbox" id="chec">
         <div class="threelines-container">
             <label for="chec">
                 <img src="./view/img/3linhas.png">
             </label>
         </div>
-    
+
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -93,7 +93,7 @@
                 </div>
             </div>
 
-            
+
             <div class="rightheader-image">
                 <img src="./view/img/header.svg">
             </div>
@@ -104,12 +104,36 @@
 
     <div class="secondpage-container">
         <div class="promocoes-container">
-
-            <img src="./view/img/promocoes.png">
+            <article class="c-carousel c-carousel--simple">
+                <div class="c-carousel__slides js-carousel--simple">
+                    <article class="c-carousel__slide"><img src="./view/img/greenapp.png"></article>
+                    <article class="c-carousel__slide"><img src="./view/img/voltmeter.png"></article>
+                    <article class="c-carousel__slide"><img src="./view/img/keyrunner.png"></article>
+                    <article class="c-carousel__slide"><img src="./view/img/amplifier.png"></article>
+                    <article class="c-carousel__slide"><img src="./view/img/upstar.png"></article>
+                    <article class="c-carousel__slide"><img src="./view/img/primester.png"></article>
+                </div>
+                
+                <div class="js-carousel--responsive-dots"></div>
+            </article>
+            <!--<img src="./view/img/promocoes.png">-->
         </div>
 
         <div class="mobilepromocoes-container">
-            <img src="./view/img/mobilepromocoes.png">
+            <article class="c-carousel c-carousel--simple">
+                <div class="c-carousel__slides js-carousel--simple">
+                    <article class="c-carousel__slide"><img src="./view/img/greenapp.png"></article>
+                    <article class="c-carousel__slide"><img src="./view/img/voltmeter.png"></article>
+                    <article class="c-carousel__slide"><img src="./view/img/keyrunner.png"></article>
+                    <article class="c-carousel__slide"><img src="./view/img/amplifier.png"></article>
+                    <article class="c-carousel__slide"><img src="./view/img/upstar.png"></article>
+                    <article class="c-carousel__slide"><img src="./view/img/primester.png"></article>
+                </div>
+                <button class="js-carousel--responsive-prev">«</button>
+                <button class="js-carousel--responsive-next">»</button>
+                <div class="js-carousel--responsive-dots"></div>
+            </article>
+            <!--<img src="./view/img/mobilepromocoes.png">-->
         </div>
 
         <div class="centertitle-container">
@@ -126,7 +150,8 @@
                 <li class="imagem1-bugada">
                     <img src="./view/img/item1.svg">
                     <h1>List Builder</h1>
-                    <p>It's very easy to start creating email lists for your <br> marketing actions. Just create your Tivo account</p>
+                    <p>It's very easy to start creating email lists for your <br> marketing actions. Just create your
+                        Tivo account</p>
                 </li>
                 <li class="imagem2-bugada">
                     <img src="./view/img/item2.svg">
@@ -147,11 +172,12 @@
 
     <div class="mapa-container">
         <section>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.22893732343!2d-51.47241658599819!3d-25.397146183803528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ef363396d1871d%3A0xf28055fcdf05407b!2sEntre%20Rios%20Assessoria%20Cont%C3%A1bil!5e0!3m2!1spt-BR!2sbr!4v1635764876825!5m2!1spt-BR!2sbr" 
-            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.22893732343!2d-51.47241658599819!3d-25.397146183803528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ef363396d1871d%3A0xf28055fcdf05407b!2sEntre%20Rios%20Assessoria%20Cont%C3%A1bil!5e0!3m2!1spt-BR!2sbr!4v1635764876825!5m2!1spt-BR!2sbr"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </section>
     </div>
-    
+
 
     <div class="modalacesso-container">
         <a href="#openModal">Open Modal</a>
@@ -159,13 +185,14 @@
         <div id="openModal" class="modalDialog">
             <a href="#close" title="Close" class="close">X</a>
             <div class="titulo">
-                <p>Formulário Simples<p>
-                
+                <p>Formulário Simples
+                <p>
+
             </div>
             <div class="formulario">
                 <form method="get">
                     <label>Name:
-                        <input type="text" placeholder="example" id="username" >
+                        <input type="text" placeholder="example" id="username">
                     </label>
                     <label>E-mail:
                         <input type="email" placeholder="email@email" id="email">
@@ -181,22 +208,24 @@
                         <input name="cidade" type="text" id="cidade" size="40" /></label><br />
                     <label>State:
                         <input name="uf" type="text" id="uf" size="2" /></label><br />
-                    <label>IBGE:
-                        <input name="ibge" type="text" id="ibge" size="8" /></label><br />
+                    <div class="ibge-container">
+                        <label>IBGE:
+                            <input name="ibge" type="text" id="ibge" size="8" /></label><br />
+                    </div>
                     <label>Number:
                         <input type="text" id="numero">
                     </label>
                     <label>Home Phone:
-                        <input type="tel" placeholder= "(XX) XXXXX-XXXX" id="fone">
+                        <input type="tel" placeholder="(XX) XXXXX-XXXX" id="fone">
                     </label>
                     <label>Subject:
-                        <input type="text" id="subject">                
+                        <input type="text" id="subject">
                     </label>
                     <label>Message
-                        <textarea columns="20"rows="10" class="textarea-container"></textarea>
+                        <textarea columns="20" rows="10" class="textarea-container"></textarea>
                     </label>
                     <input type="submit" value="Submit">
-                    
+
                 </form>
             </div>
         </div>
@@ -293,33 +322,33 @@
         </div>
 -->
 
-<!--
+    <!--
     <div class="forthpage-container">
         <div class="forthtitle-container">
             <h1>Upgrade Your Marketing <br> Solution Without Delay</h1>
         </div>
     </div>-->
-     	
+
     <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
     <script>
-    
+
         function limpa_formulário_cep() {
-                //Limpa valores do formulário de cep.
-                document.getElementById('rua').value=("");
-                document.getElementById('bairro').value=("");
-                document.getElementById('cidade').value=("");
-                document.getElementById('uf').value=("");
-                document.getElementById('ibge').value=("");
+            //Limpa valores do formulário de cep.
+            document.getElementById('rua').value = ("");
+            document.getElementById('bairro').value = ("");
+            document.getElementById('cidade').value = ("");
+            document.getElementById('uf').value = ("");
+            document.getElementById('ibge').value = ("");
         }
-    
+
         function meu_callback(conteudo) {
             if (!("erro" in conteudo)) {
                 //Atualiza os campos com os valores.
-                document.getElementById('rua').value=(conteudo.logradouro);
-                document.getElementById('bairro').value=(conteudo.bairro);
-                document.getElementById('cidade').value=(conteudo.localidade);
-                document.getElementById('uf').value=(conteudo.uf);
-                document.getElementById('ibge').value=(conteudo.ibge);
+                document.getElementById('rua').value = (conteudo.logradouro);
+                document.getElementById('bairro').value = (conteudo.bairro);
+                document.getElementById('cidade').value = (conteudo.localidade);
+                document.getElementById('uf').value = (conteudo.uf);
+                document.getElementById('ibge').value = (conteudo.ibge);
             } //end if.
             else {
                 //CEP não Encontrado.
@@ -327,37 +356,37 @@
                 alert("CEP não encontrado.");
             }
         }
-            
+
         function pesquisacep(valor) {
-    
+
             //Nova variável "cep" somente com dígitos.
             var cep = valor.replace(/\D/g, '');
-    
+
             //Verifica se campo cep possui valor informado.
             if (cep != "") {
-    
+
                 //Expressão regular para validar o CEP.
                 var validacep = /^[0-9]{8}$/;
-    
+
                 //Valida o formato do CEP.
-                if(validacep.test(cep)) {
-    
+                if (validacep.test(cep)) {
+
                     //Preenche os campos com "..." enquanto consulta webservice.
-                    document.getElementById('rua').value="...";
-                    document.getElementById('bairro').value="...";
-                    document.getElementById('cidade').value="...";
-                    document.getElementById('uf').value="...";
-                    document.getElementById('ibge').value="...";
-    
+                    document.getElementById('rua').value = "...";
+                    document.getElementById('bairro').value = "...";
+                    document.getElementById('cidade').value = "...";
+                    document.getElementById('uf').value = "...";
+                    document.getElementById('ibge').value = "...";
+
                     //Cria um elemento javascript.
                     var script = document.createElement('script');
-    
+
                     //Sincroniza com o callback.
-                    script.src = 'https://viacep.com.br/ws/'+ cep + '/json/?callback=meu_callback';
-    
+                    script.src = 'https://viacep.com.br/ws/' + cep + '/json/?callback=meu_callback';
+
                     //Insere script no documento e carrega o conteúdo.
                     document.body.appendChild(script);
-    
+
                 } //end if.
                 else {
                     //cep é inválido.
@@ -370,8 +399,46 @@
                 limpa_formulário_cep();
             }
         };
-    
-        </script>
+
+    </script>
+
+    <script>
+        const $responsiveCarousel = document.querySelector(".js-carousel--simple");
+
+        new Glider($responsiveCarousel, {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            draggable: true,
+            dots: ".js-carousel--responsive-dots",
+            arrows: {
+                prev: ".js-carousel--responsive-prev",
+                next: ".js-carousel--responsive-next",
+            },
+            responsive: [
+                {
+                    breakpoint: 400,
+                    settings:{
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    },
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                    },
+                },
+                {
+                    breakpoint: 900,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 2,
+                    },
+                },
+            ],
+        });
+    </script>
 </body>
 
 </html>

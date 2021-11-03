@@ -278,8 +278,10 @@
         display:inline-block;
         list-style-type: none;
         margin-left: 30px;
+    }
 
-
+    .ibge-container{
+        display: none;
     }
 
     .imageslist-container img{
@@ -287,16 +289,13 @@
         margin-left: 50px;
     }
 
-    .imagem3-bugada{
-        margin-top: -40px;
     
-    }
-
     .imagem3-bugada img{
         width: 206px;
     }
 
     .imagem3-bugada h1{ 
+        
         text-align: left;
     }
 
