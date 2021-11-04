@@ -292,14 +292,14 @@
         margin-right: -10%;
         margin-top: 50px;
         
-        height: 1500px;
+        height: 1150px;
     }
 
     .promocoes-container{
         text-align: center;
         margin-left: 10%;
         width: 80%;
-        display: none;
+        
     }
 
     .mobilepromocoes-container{
