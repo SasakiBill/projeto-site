@@ -224,7 +224,7 @@
         margin-top: 10vw;
     }
 
-    @media screen (max-width: 1000px) { 
+    @media screen :(max-width: 1000px) { 
 
         
     }
