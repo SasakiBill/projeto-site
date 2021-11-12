@@ -116,23 +116,18 @@
         display: none;
     }
 
-    .topnavmobile-container ul{
-        
+    .topnavmobile-container ul{  
         position: relative;
         list-style-type: none;
-        
     }
 
     input[type="checkbox"]:checked ~ nav{
         transform: translateX(700px);
         cursor: pointer;
-        
     }
 
     .hideninfo-container{
         background-color: #5f4dee;
-        
-        
     }
 
 
