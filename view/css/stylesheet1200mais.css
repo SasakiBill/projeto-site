@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1200px){
+
     body{
         background-color: #5f4dee;
         overflow-x: hidden;
@@ -7,6 +7,10 @@
 
     .topnavmobile-container{
         display: none;
+    }
+
+    ul{
+        cursor: pointer;
     }
 
     .topnav-container{
@@ -35,8 +39,6 @@
     .topnavbuttons-container a{
         text-decoration-line: none;
         color: #dadfe2;
-        
-        cursor: pointer;
         padding: 10px 10px 10px 10px;
         right: -30%;
         font-size: 15px;
@@ -46,21 +48,18 @@
     .topnavbuttons-container a:hover{
         color: white;
         transition: 0.5s;
+        cursor: pointer;
     }
 
-    .login-container{
-        top: -86px;
-        position: relative;
-        margin-right: 40px;
-    }
-
+   
     .rightbuttons-container{
         right: auto;
     }
 
     .login-container button[type="SUBMIT"]{
-        margin-left: 1100px;
-        margin-top: 22px;
+        position: relative;
+        margin-left: 30vw;
+        top: -2.7vw;
         background-color: #5f4dee;
         border-radius: 15px;
         border-color: white;
