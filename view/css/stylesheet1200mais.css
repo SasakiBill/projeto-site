@@ -17,22 +17,22 @@
         position: fixed;
         background-color: #5f4dee;
         margin-top: -300px;
-        height: 70px;
-        width: 1385px;
-        margin-left: -40px;
+        height: 4vw;
+        width: 200vw;
+        margin-left: -1vw;
         z-index: 1;
     }
 
     .topnav-container img{
         position: absolute;
         background-color: #5f4dee;
-        margin-left: 66px;
-        top: 9px;
+        margin-left: 15vw;
+        top: 0.5vw;
     }
 
     .topnavbuttons-container{
-        right: -660px;
-        top: -10px;
+        right: -50vw;
+        top: 0vw;
         position: relative;
     }
 
@@ -41,13 +41,13 @@
         color: #dadfe2;
         padding: 10px 10px 10px 10px;
         right: -30%;
-        font-size: 15px;
+        font-size: 1em;
         font: "Open Sans", sans-serif;
     }
 
     .topnavbuttons-container a:hover{
         color: white;
-        transition: 0.5s;
+        transition: 1s;
         cursor: pointer;
     }
 
@@ -57,9 +57,9 @@
     }
 
     .login-container button[type="SUBMIT"]{
-        position: relative;
-        margin-left: 30vw;
-        top: -2.7vw;
+        position: fixed;
+        margin-left: 36vw;
+        top: 0.7vw;
         background-color: #5f4dee;
         border-radius: 15px;
         border-color: white;
@@ -79,7 +79,7 @@
     .dropbtn {
         background-color: #5f4dee;
         color: #dadfe2;
-        padding: 16px;
+        
         font-size: 16px;
         border: none;
         cursor: pointer;
@@ -106,21 +106,23 @@
         padding: 12px 12px;
         text-decoration: none;
         display: block;
-        
+        font-size: 1em;
     }
 
     .dropdown-content a:hover {
-        background-color: #5f4dee;
+        
         color: white;
+        transition: 0.5s;
     }
 
     .dropdown:hover .dropdown-content {
-    display: block;
+        display: block;
     }
 
     .dropdown:hover .dropbtn {
-    background-color: #5f4dee;
-    color: white;
+        background-color: #5f4dee;
+        color: white;
+        transition: 0.5s;
     }
 
     .leftmain-container{
@@ -150,11 +152,11 @@
 
 
     .rightheader-image img{
-        float: right;
+        text-align: center;
         transform: rotate(2deg);
         width: 670px;
-        margin-top: -360px;
-        margin-right: -5%;
+        margin-top: -22vw;
+        margin-left: 50vw;
 
     }
 
@@ -217,11 +219,14 @@
     .secondpage-container{
         background-color: white;
         width: auto;
-        margin-left: -10%;
-        margin-right: -10%;
-        margin-top: 250px;
-        flex-grow: 20;
-        height: 760px;
+        left: 0;
+        right: 0;
+        margin-top: 10vw;
+    }
+
+    @media screen (max-width: 1000px) { 
+
+        
     }
 
     .promocoes-container{
@@ -503,6 +508,10 @@
         margin-right: -10%;
     }
 
+    .mapa-container h1{
+        text-align: center;
+    }
+
 
     .modalacesso-container a{
         text-decoration: none;
@@ -596,4 +605,3 @@
         text-align: center;
 
     }
-}
